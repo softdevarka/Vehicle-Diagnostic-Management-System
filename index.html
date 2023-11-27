@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4a0688de16.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Vehicle Diagnostics Form</header>
+      <form action="">
+        <div class="form first">
+          <div class="details personal">
+            <span class="tittle">Customer Details</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Full Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter Customer's Name"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Mobile No.</label>
+                <input
+                  type="number"
+                  placeholder="Enter Mobile Number"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Address</label>
+                <input type="text" placeholder="Enter Address" required />
+              </div>
+
+              <div class="input-field">
+                <label>Date of Birth</label>
+                <input type="date" placeholder="Enter Birth Date" required />
+              </div>
+
+              <div class="input-field">
+                <label>Email</label>
+                <input type="text" placeholder="Enter Email Id" required />
+              </div>
+
+              <div class="input-field">
+                <label>Phone No.</label>
+                <input type="number" placeholder="Enter Phone No." required />
+              </div>
+
+              <div class="input-field">
+                <label>Occupation</label>
+                <input type="text" placeholder="Enter Occupation" required />
+              </div>
+
+              <div class="input-field">
+                <label>Ownership</label>
+                <input type="text" placeholder="Enter Ownership" required />
+              </div>
+
+              <div class="input-field">
+                <label>Customer Source</label>
+                <input type="text" placeholder="Enter Source" required />
+              </div>
+            </div>
+
+            <button class="nextBtn">
+              <span class="btnText">Next</span>
+              <i
+                class="fa-solid fa-arrow-right fa-beat-fade"
+                style="color: #ffffff"
+              ></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="form second">
+          <div class="details vehicle">
+            <span class="tittle">Vehicle Details</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Vehicle Brand</label>
+                <input type="text" placeholder="Enter Company Name" />
+              </div>
+
+              <div class="input-field">
+                <label>Vehicle Model No.</label>
+                <input type="text" placeholder="Enter Model Number" />
+              </div>
+
+              <div class="input-field">
+                <label>Vehicle Fuel Type</label>
+                <input type="text" placeholder="Enter Address" />
+              </div>
+
+              <div class="input-field">
+                <label>Vehicle Registration No.</label>
+                <input type="text" placeholder="Enter Registration No." />
+              </div>
+
+              <div class="input-field">
+                <label>Vehicle Variant</label>
+                <input type="text" placeholder="Enter Variant" />
+              </div>
+
+              <div class="input-field">
+                <label>Vehicle Km Reading</label>
+                <input type="number" placeholder="Enter Vehicle Km" />
+              </div>
+
+              <div class="input-field">
+                <label>Insurance Company Name</label>
+                <input type="text" placeholder="Enter Insurance Name" />
+              </div>
+
+              <div class="input-field">
+                <label>Insurance Company Policy</label>
+                <input type="text" placeholder="Enter Policy No." />
+              </div>
+
+              <div class="input-field">
+                <label>Insurance Expiry Date</label>
+                <input type="date" placeholder="Policy Expiry Date" />
+              </div>
+            </div>
+            <div class="buttons">
+              <div class="backBtn">
+                <i
+                  class="fa-solid fa-arrow-left fa-beat-fade"
+                  style="color: #ffffff"
+                ></i>
+                <span class="btnText">Back</span>
+              </div>
+
+              <button class="nextBtn">
+                <span class="btnText">Next</span>
+                <i
+                  class="fa-solid fa-arrow-right fa-beat-fade"
+                  style="color: #ffffff"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form third">
+          <div class="details vehicle">
+            <span class="tittle">Customer Vehicle Status</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Mention Dents</label>
+                <input type="text" placeholder="Dent location" />
+              </div>
+
+              <div class="input-field">
+                <label>List of products</label>
+                <select id="options" name="options">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Tyre Condition</label>
+                <select id="options" name="options">
+                  <option value="option1">Good</option>
+                  <option value="option2">Moderate</option>
+                  <option value="option3">Need a replacement</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Upload Scratch Image</label>
+                <input
+                  type="file"
+                  id="imageInput"
+                  name="image"
+                  accept="image/*"
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Upload Battery Image</label>
+                <input
+                  type="file"
+                  id="imageInput"
+                  name="image"
+                  accept="image/*"
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Vehicle Video File</label>
+                <input
+                  type="file"
+                  id="imageInput"
+                  name="image"
+                  accept="image/*"
+                />
+              </div>
+            </div>
+
+            <div class="buttons">
+              <div class="backBtn">
+                <i
+                  class="fa-solid fa-arrow-left fa-beat-fade"
+                  style="color: #ffffff"
+                ></i>
+                <span class="btnText">Back</span>
+              </div>
+
+              <button class="nextBtn">
+                <span class="btnText">Next</span>
+                <i
+                  class="fa-solid fa-arrow-right fa-beat-fade"
+                  style="color: #ffffff"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
